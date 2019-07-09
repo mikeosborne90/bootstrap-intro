@@ -10,21 +10,47 @@
 </head>
 <body>
     <div class="container-fluid">
-        [container-fluid]
-        <div class="col-md-12 header">[header]</div>
-        <div class="col-md-12 nav">[nav]</div>
-        <div class="row-md-12">
-            <div class="col-md-8 content">[content]</div>
-            <div class="col-md-4 aside">[aside]</div>
+        <p>[container-fluid]</p>
+        <div class="container">
+            <header class="row blackBorder">
+                <div class="col-md-12">
+                    <p>[header]</p>
+                </div>
+            </header>
+            <nav class="row blackBorder">
+                <div class="col-md-12">
+                    <p>[nav]</p>
+                </div>
+            </nav>
+          <section class="row">
+              <div class="col-md-9 blackBorder">
+                  <p>[content]</p>
+              </div>
+              <aside class="col-md-3 blackBorder">
+                  <p>[aside]</p>
+              </aside>   
+          </section>
+          <section class="row">
+              <div class="col-md-3 promo">
+                  <p>[promo1]</p>
+              </div>
+              <div class="col-md-3 promo">
+                  <p>[promo2]</p>
+              </div>
+              <div class="col-md-3 promo">
+                  <p>[promo3]</p>
+              </div>
+              <div class="col-md-3 promo">
+                  <p>[promo4]</p>
+              </div>
+          </section>
+          <footer class="row blackBorder">
+              <div class="col-md-12">
+                  <p>[footer]</p>
+              </div>
+          </footer>
         </div>
-        <div class="row-md-12 contentaside">
-            <div class="col-md-3 promo">[promo1]</div>
-            <div class="col-md-3 promo">[promo2]</div>
-            <div class="col-md-3 promo">[promo3]</div>
-            <div class="col-md-3 promo">[promo4]</div>
-        </div>
-        <div class="row-md-12 footer">[footer]</div>
-    </div>
+    </div> 
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

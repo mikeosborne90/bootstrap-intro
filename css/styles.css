@@ -2,41 +2,41 @@
 {
     background-color: yellow;
 }
-
-.col-md-12.header
+header
 {
     background-color: blue;
-    height: 100px;
+    height: 150px;
 }
-
-.col-md-12.nav
+nav
 {
     background-color: green;
-    height: 30px;
+    height: 60px;
 }
-
-.row-md-12.contentaside
-{
-    height: 140px;
-}
-
-.col-md-8.content
+section .col-md-9
 {
     background-color: red;
+    height: 200px;
 }
-
-.col-md-4.aside
+aside
 {
-    background-color: teal;
+    background-color: turquoise;
+    height: 200px;
 }
 
-.col-md-3.promo
+.promo
 {
-    background-color: orange;
+    background-color:orange;
+    height: 150px;
+    border: 2px solid #000;
 }
-
-.row-md-12.footer
+footer
 {
     background-color: black;
     color: white;
+    height: 60px;
+}
+
+.blackBorder
+{
+    border: 2px solid #000;
 }
