@@ -1,0 +1,42 @@
+.container-fluid
+{
+    background-color: yellow;
+}
+
+.col-md-12.header
+{
+    background-color: blue;
+    height: 100px;
+}
+
+.col-md-12.nav
+{
+    background-color: green;
+    height: 30px;
+}
+
+.row-md-12.contentaside
+{
+    height: 140px;
+}
+
+.col-md-8.content
+{
+    background-color: red;
+}
+
+.col-md-4.aside
+{
+    background-color: teal;
+}
+
+.col-md-3.promo
+{
+    background-color: orange;
+}
+
+.row-md-12.footer
+{
+    background-color: black;
+    color: white;
+}
