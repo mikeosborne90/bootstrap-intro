@@ -1,0 +1,42 @@
+.container-fluid
+{
+    background-color: yellow;
+}
+header
+{
+    background-color: blue;
+    height: 150px;
+}
+nav
+{
+    background-color: green;
+    height: 60px;
+}
+section .col-md-9
+{
+    background-color: red;
+    height: 200px;
+}
+aside
+{
+    background-color: turquoise;
+    height: 200px;
+}
+
+.promo
+{
+    background-color:orange;
+    height: 150px;
+    border: 2px solid #000;
+}
+footer
+{
+    background-color: black;
+    color: white;
+    height: 60px;
+}
+
+.blackBorder
+{
+    border: 2px solid #000;
+}
